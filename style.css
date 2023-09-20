@@ -1,43 +1,38 @@
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+p{
+    font-size:larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-family: Arial narrow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
-header, footer {
-    background-color: #333;
-    color: #c43a3a;
-    text-align: center;
-    padding: 1em 0;
+img{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hidden {
+    display: none;
 }
 
-nav {
-    background-color: #444;
-    padding: 0.5em;
+body{
+    background-color:azure
 }
 
-nav a {
-    color: #fff;
-    margin: 0 1em;
-    text-decoration: none;
+.project_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 1em;
-}
-
-section {
-    margin-bottom: 2em;
-}
-
-h1, h2 {
-    color: #333;
-}
-
-/* Add more specific styles and customizations as needed */
